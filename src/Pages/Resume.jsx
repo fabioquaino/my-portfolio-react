@@ -2,6 +2,8 @@ import { FaLinkedin, FaDownload, FaSearch } from "react-icons/fa";
 import { FaFilePdf } from "react-icons/fa6";
 import ResumePdf  from "../assets/Fabio_Quaino_Resume.pdf" 
 import { Link } from "react-router-dom";
+import aws_ccp from "../assets/badges/aws-ccp.png"
+import aws_ia from "../assets/badges/aws-ia.png"
 
 export default function Resume() {  
 
@@ -103,7 +105,19 @@ export default function Resume() {
                                 <p>Recognized for academic excellence, ranking in the top 3 students in the career.</p>
                             </div>
                         </div>
-
+                        <br/>
+                        <h2 className="text-3xl font-bold text-slate-400 text-left">Certification Badges</h2>
+                        <hr className="h-px bg-slate-600 w-full my-3 opacity-20"/>
+                        <div className="inline-block bg-slate-800/40 p-4 rounded-2xl shadow-md">
+                            <div className="grid grid-cols-2 gap-6 justify-items-center">
+                                <div className="bg-slate-700/30 p-3 rounded-xl flex items-center justify-center">
+                                <img src={aws_ccp} alt="AWS CCP" className="object-contain opacity-90 select-none max-w-32" />
+                                </div>
+                                <div className="bg-slate-700/30 p-3 rounded-xl flex items-center justify-center">
+                                <img src={aws_ia} alt="AWS IA" className="object-contain opacity-90 select-none max-w-32" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div>
                         <h2 className="text-3xl font-bold text-slate-400 text-left">Education</h2>

@@ -7,6 +7,7 @@ import mejorar from "../assets/projects/mejorar.png"
 import talendesb_deploy from "../assets/projects/talendesb_deploy.png"
 import telegram_chat from "../assets/projects/telegram_chat.png"
 import tableros_ctd from "../assets/projects/tableros_ctd.png"
+import talend_tutorial from "../assets/projects/talend_tutorial.png"
 
 export default function Project({project}) {
 
@@ -23,6 +24,8 @@ export default function Project({project}) {
         imagePath = tableros_ctd;
     } else if (image === "telegram_chat.png") {
         imagePath = telegram_chat;
+    } else if (image === "talend_tutorial.png") {
+        imagePath = talend_tutorial;
     }
 
     return (
