@@ -1,28 +1,34 @@
 {
-    "tools": [
-        {
-            "id": "bonita",
-            "name": "Bonita BPM",
-            "description": "Open-source tool for creating efficient and adaptive business applications.",
-            "link": "https://www.bonitasoft.com/"
-          },
-          {
-            "id": "aws",
-            "name": "Amazon Web Services (AWS)",
-            "description": "Flexible, reliable, and scalable cloud computing solutions.",
-            "link": "https://aws.amazon.com/"
-          },
-          {
-            "id": "pyml",
-            "name": "Python for Machine Learning (ML)",
-            "description": "Programming language commonly used for creating applications that learn from data.",
-            "link": "https://www.python.org/"
-          },
-          {
-            "id": "atlassian",
-            "name": "Atlassian Suite",
-            "description": "Collection of software products for team collaboration and productivity, including Jira and Bitbucket.",
-            "link": "https://www.atlassian.com/"
-          }
-    ]
+  "tools": [
+    {
+      "id": "pyml",
+      "name": "Python for Machine Learning (ML)",
+      "description": "Programming language commonly used for creating applications that learn from data.",
+      "link": "https://www.python.org/"
+    },
+    {
+      "id": "atlassian",
+      "name": "Atlassian Suite",
+      "description": "Collection of software products for team collaboration and productivity, including Jira and Bitbucket.",
+      "link": "https://www.atlassian.com/"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "description": "JavaScript library for building user interfaces on the web.",
+      "link": "https://reactjs.org/"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "description": "Open-source database system known for speed, reliability, and ease of use.",
+      "link": "https://www.mysql.com/"
+    },
+    {
+      "id": "bonita",
+      "name": "Bonita BPM",
+      "description": "Open-source tool for creating efficient and adaptive business applications.",
+      "link": "https://www.bonitasoft.com/"
+    }
+  ]
 }

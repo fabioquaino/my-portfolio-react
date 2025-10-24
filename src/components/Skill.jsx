@@ -1,5 +1,7 @@
-import { SiTalend, SiApacheairflow, SiNodered, SiPowerbi, SiMysql, SiOracle   } from "react-icons/si";
-import { FaAws, FaPython, FaLinux, FaGitAlt, FaDocker, FaReact, FaAtlassian, FaProjectDiagram as FaBonitasoft    } from "react-icons/fa";
+import { SiTalend, SiApacheairflow, SiNodered, SiMysql, SiOracle, SiN8N, SiBmcsoftware    } from "react-icons/si";
+import { FaAws, FaPython, FaLinux, FaGitAlt, FaDocker, FaReact, FaAtlassian, FaChartBar, FaProjectDiagram    } from "react-icons/fa";
+import { RxLetterCaseToggle } from "react-icons/rx";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 export default function Skill({skill}) {
@@ -15,7 +17,7 @@ export default function Skill({skill}) {
         } else if (id === 'nodered') {
           return <SiNodered />;
         } else if (id === 'powerbi') {
-          return <SiPowerbi />;
+          return <FaChartBar />;
         } else if (id === 'mysql') {
           return <SiMysql />;
         } else if (id === 'oracle') {
@@ -33,11 +35,19 @@ export default function Skill({skill}) {
         } else if (id === 'react') {
           return <FaReact />;
         } else if (id === 'bonita') {
-          return <FaBonitasoft />;
+          return <FaProjectDiagram />;
         } else if (id === 'atlassian') {
           return <FaAtlassian />;
+        } else if (id === 'abinitio') {
+          return <RxLetterCaseToggle />;
+        } else if (id === 'n8n') {
+          return <SiN8N />;
+        } else if (id === 'postgres') {
+          return <BiLogoPostgresql />;
+        } else if (id === 'controlm') {
+          return <SiBmcsoftware />;
         } else {
-          return <FaBonitasoft />;
+          return <FaProjectDiagram />;
         }
       };
       
