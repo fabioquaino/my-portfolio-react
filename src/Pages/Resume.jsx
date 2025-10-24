@@ -30,29 +30,43 @@ export default function Resume() {
                         <h2 className="text-3xl font-bold text-slate-400 text-left">Experience</h2>
                         <hr className="h-0.1 bg-slate-600 w-full my-3 opacity-20"/>
                         <div className="flex flex-col gap-1 text-lg text-slate-500  font-semibold mb-6">
+                            <h3 className="text-2xl text-orange-500 font-bold">ETL Developer</h3>
+                            <Link className="text-xl text-slate-400 font-bold hover:text-slate-500 transition-colors" to="https://www.charlestaylor.com/" target="_blank"> Charles Taylor InsureTech</Link>
+                            <h4 className="text-base font-bold text-slate-700">06/2024 - Present</h4>
+                            <p>Worked on managing ETLs for a banking institution.</p>
+                            <ul className="list-disc pl-6">
+                                <li>Developed ETLs for processing data from files, databases, and web services.</li>
+                                <li>Orchestrated ETLs and processes to execute when needed..</li>
+                                <li>Created Bash and KSH scripts for managing directories, permissions and tasks.</li>
+                                <li>Automated monitoring of ETL performance and sent reports by email.</li>
+                                <li>Developed SOAP web services.</li>
+                                <li>Developed management dashboards.</li>
+                                <li>Managed change control in ETL workflows.</li>
+                                <li>Developed AI-based solutions, including a chatbot and a data quality analysis process.</li>
+                                <li>Improved data pipelines’ efficiency and reliability through optimization and validation.</li>
+                            </ul>
+                        </div>
+                        <div className="flex flex-col gap-1 text-lg text-slate-500  font-semibold mb-6">
                             <h3 className="text-2xl text-orange-500 font-bold">Data Engineer</h3>
                             <Link className="text-xl text-slate-400 font-bold hover:text-slate-500 transition-colors" to="https://www.holon.com.ar/" target="_blank">Holon Software</Link>
-                            <h4 className="text-base font-bold text-slate-700">09/2022 - Present</h4>
+                            <h4 className="text-base font-bold text-slate-700">09/2022 - 06/2024</h4>
                             <p>Worked in the interoperability department on projects related to public administration.</p>
                             <ul className="list-disc pl-6">
-                                <li>Developed microservices (SOAP and REST).</li>
+                                <li>Developed microservices SOAP and REST.</li>
                                 <li>Created and orchestrated ETL processes.</li>
                                 <li>Managed databases (MySQL and Oracle).</li>
                                 <li>Integrated applications.</li>
                                 <li>Implemented IoT device integration.</li>
                                 <li>Developed management dashboards.</li>
                                 <li>Designed business processes (BPM).</li>
+                                <li>Developed basic machine learning models.</li>
                             </ul>
                         </div>
                         <div className="flex flex-col gap-1 text-lg text-slate-500 font-semibold">
                             <h3 className="text-2xl text-orange-500 font-bold">University tutor</h3>
                             <Link className="text-xl text-slate-400 font-bold hover:text-slate-500 transition-colors" to="https://www.frvm.utn.edu.ar/" target="_blank">Universidad Tecnológica Nacional FRVM</Link>
                             <h4 className="text-base font-bold text-slate-700">09/2021 - 03/2022</h4>
-                            <p>Provided virtual tutoring sessions for incoming students in:</p>
-                            <ul className="list-disc pl-6">
-                                <li>Mathematics.</li>
-                                <li>Physics.</li>
-                            </ul>
+                            <p>Provided virtual tutoring sessions for incoming students in Mathematics and Physics.</p>
                         </div>
 
                     </div>
@@ -60,6 +74,14 @@ export default function Resume() {
                         <h2 className="text-3xl font-bold text-slate-400 text-left">Achievements</h2>
                         <hr className="h-0.1 bg-slate-600 w-full my-3 opacity-20"/>
                         <div className="flex flex-col gap-4">
+                            <div className="flex flex-col text-lg text-slate-500 font-semibold">
+                                <h3 className="text-xl text-orange-500 font-bold flex gap-2 items-center">Co-Author of the paper 'ETL in Geospatial Data Management' - 2024
+                                    <Link to="https://opendata.fi.uncoma.edu.ar/jornadasIDERA/archivos/SalinasEtAl.pdf" target="_blank"
+                                        className="text-base text-slate-400 hover:text-slate-500 transition-colors"
+                                    ><FaSearch/></Link>
+                                </h3>
+                                <p>Co-author of the short paper presented at the XVIII IDERA Conference.</p>
+                            </div>
                             <div className="flex flex-col text-lg text-slate-500 font-semibold">
                                 <h3 className="text-xl text-orange-500 font-bold flex gap-2 items-center">Ing. Isidoro Marín Award - 2023 
                                     <Link to="https://acading.org.ar/premio-ing-isidoro-marin-a-los-mejores-egresados-de-carreras-de-ingenieria-de-universidades-argentinas/" target="_blank"
@@ -86,6 +108,11 @@ export default function Resume() {
                     <div>
                         <h2 className="text-3xl font-bold text-slate-400 text-left">Education</h2>
                         <hr className="h-0.1 bg-slate-600 w-full my-3 opacity-20"/>
+                        <div className="flex flex-col gap-1 text-lg text-slate-500  font-semibold mb-4">
+                            <h3 className="text-2xl text-orange-500 font-bold"> Diplomacy in Data Science and Machine Learning</h3>
+                            <Link className="text-xl text-slate-400 font-bold hover:text-slate-500 transition-colors" to="https://www.unc.edu.ar/" target="_blank">Universidad Nacional de Córdoba </Link>
+                            <h4 className="text-base font-bold text-slate-700">03/2024 - 11/2024</h4>
+                        </div>
                         <div className="flex flex-col gap-1 text-lg text-slate-500  font-semibold mb-4">
                             <h3 className="text-2xl text-orange-500 font-bold">Systems Information Engineering</h3>
                             <Link className="text-xl text-slate-400 font-bold hover:text-slate-500 transition-colors" to="https://www.frvm.utn.edu.ar/" target="_blank">Universidad Tecnológica Nacional FRVM</Link>
